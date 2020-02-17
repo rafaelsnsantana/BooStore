@@ -1,0 +1,49 @@
+body{
+    background-image: linear-gradient(#cc3333, #663333, #330033);
+    width: 720px;
+    margin: 0 auto;   
+    box-sizing: border-box;
+    text-align: center;
+} 
+
+img{
+    color:white;    
+}
+
+label, p{
+    color:white;
+}
+
+label a{
+    color: white;
+}
+
+.campo-padrao{
+    width: 655px;
+    /* width: 35%;     */
+    padding: 15px;
+    display: block;
+    background-color: #663333;
+    color:white; 
+    border-style: none;   
+}
+
+.botao{
+    width: 655px;
+    /* width: 40%;     */
+    padding: 15px; 
+    background-color: #990033;
+    color: white; 
+    font-size: 22px;    
+    border-style: none;
+}
+
+hr{   
+    color:  white;
+}
+
+.rodape{
+    padding: 5px;
+    margin-right: 15px;
+    display: inline-block;
+}

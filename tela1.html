@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="tela1.css" rel="stylesheet">
+</head>
+<body> 
+
+    <img src="imagens/Grupo 481.png">   
+        
+    <form name="form-login" id="form-login" action="efetuar-login.php" method="POST">                    
+            
+            <input type="email" name="email" id="email" class="campo-padrao" placeholder="e-mail"><br>           
+            <input type="password" maxlength="10" name="senha" id="senha" class="campo-padrao" required placeholder="senha"><br> 
+
+            <label for="sem-senha">Esqueceu sua senha? </label> <br><br>
+
+            <button type="button" class="botao" onclick="Validar();">LOGIN</button><br><br>
+
+            <label for="sem-conta">Não possui conta? <a href="#">Cadastre-se agora</a></label><br><br>     
+            
+            <hr>
+            <p>Ou</p>
+            <hr>
+            <label for="redes-sociais">Login com redes sociais </label><br><br>
+
+            <div class="rodape">
+                <img src="imagens/Grupo 472.png">
+                <img src="imagens/Grupo 471.png">
+                <img src="imagens/Grupo 470.png">
+            </div>
+
+            <script src="tela1.js"></script>
+    </form>
+</body>
+</html>
